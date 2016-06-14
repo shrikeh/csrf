@@ -1,7 +1,9 @@
 # Whitelist
 *
 !.git*
+!src/
 !src/*
+!spec/
 !spec/*
 !phpspec.yml
 !composer.*
