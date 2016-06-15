@@ -1,13 +1,16 @@
 {
-    "require-dev": {
-        "phpspec/phpspec": "^2.5"
-    },
-    "config": {
-        "bin-dir": "bin"
-    },
-    "autoload": {
-        "psr-4": {
-            "Shrikeh\\Csrf\\": "src"
-        }
-    }
+  "require": {
+      "ircmaxell/password-compat": "^1.0"
+  },
+  "require-dev": {
+      "phpspec/phpspec": "^2.5"
+  },
+  "config": {
+      "bin-dir": "bin"
+  },
+  "autoload": {
+      "psr-4": {
+          "Shrikeh\\Csrf\\": "src"
+      }
+  }
 }
